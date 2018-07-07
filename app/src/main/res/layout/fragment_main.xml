@@ -23,7 +23,7 @@
         <EditText
             android:background="@drawable/user_textfield"
             android:inputType="text"
-            android:hint="User :"
+            android:hint="user :"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -45,6 +45,8 @@
 
         <!--New Register-->
         <TextView
+            android:id="@+id/txtRegister"
+            android:clickable="true"
             android:layout_marginTop="10dp"
             android:textSize="18sp"
             android:textColor="@color/colorAccent"
