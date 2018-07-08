@@ -21,6 +21,7 @@
 
         <!--User-->
         <EditText
+            android:id="@+id/edtUser"
             android:background="@drawable/user_textfield"
             android:inputType="text"
             android:hint="user :"
@@ -29,6 +30,7 @@
 
         <!--Password-->
         <EditText
+            android:id="@+id/edtPassword"
             android:background="@drawable/password_textfield"
             android:inputType="textPassword"
             android:hint="password :"
@@ -37,6 +39,7 @@
 
         <!--Login-->
         <Button
+            android:id="@+id/btnLogin"
             android:textColor="#FFFFFF"
             android:background="@drawable/bg_button"
             android:text="LOGIN"
